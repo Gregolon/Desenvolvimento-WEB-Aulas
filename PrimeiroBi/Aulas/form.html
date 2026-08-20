@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Registre-se</legend>
+        <h4>Informe seus dados para realizar o cadastro na plataforma</h4>
+        <h1>Registre-se</h1>
+        <form action="/url-api-backend" method="post">
+
+            <label for="nome">Informe seu Nome</label>
+            <input type="text" id="nome" name="nome" title="Informe seu nome completo" 
+                placeholder="Nome" pattern="[A-Za-z ]+">
+
+            <br>
+
+            <label for="email">Informe seu E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <br>
+
+            <label for="senha">Informe sua Senha</label>
+            <input type="senha" id="senha name=" senha" minlength="6" placeholder="Senha" required>
+
+            <br>
+            <label for="bio">Insira sua biografia</label>
+                <textarea> name="bio" id="bio" rows="6" cols="26"
+                placeholder="Insira sua historia..."
+                </textarea>
+
+            <br>
+            <br>
+
+            <label for="time">Insira o melhor time do BR</label>
+            <br>
+            <select> name="melhor-time" id="time"
+                <option value="" select disabled >Selecione</option>
+                <optgroup label="Time Série A (Que nunca caiu)">
+                    <option value="CAP">CAP</option>
+                    <option value="CAP">CAP</option>
+                    <option value="CAP">CAP</option>
+                    <option value="CAP">CAP</option>
+                </optgroup>
+                <optgroup label="TIme série D">
+                    <option value="Coritiba">Coritiba</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+
+            <br>
+            <br>
+        </form>
+    </fieldset>
+</body>
+
+</html>
