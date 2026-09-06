@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assine a Newsletter | PSP Legacy</title>
+    <link rel="stylesheet" href="psp.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="logo-psp">PSP</span>
+            <span class="logo-legacy">LEGACY</span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="psp.html">VOLTAR À HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="form-section">
+            <h1>Fique por dentro das novidades do PSP</h1>
+            <p>Receba análises de jogos, tutoriais de hardware e novidades da comunidade diretamente no seu e-mail.</p>
+
+            <!-- FORMULÁRIO DE INSCRICAO -->
+            <form action="#" method="POST" class="newsletter-form">
+                
+                
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome" 
+                        placeholder="Ex: Kaz Hirai" 
+                        required
+                    >
+                </div>
+
+                
+                <div class="form-group">
+                    <label for="email">E-mail Principal:</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="seu@email.com" 
+                        required
+                    >
+                </div>
+
+                
+                <div class="form-group">
+                    <label for="interesse">Qual o seu modelo de PSP favorito?</label>
+                    <select id="interesse" name="interesse">
+                        <option value="1000">PSP 1000 (Fat)</option>
+                        <option value="2000">PSP 2000 (Slim)</option>
+                        <option value="3000">PSP 3000 (Brite)</option>
+                        <option value="go">PSP Go</option>
+                        <option value="street">PSP Street (E1000)</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn-submit">Assinar Agora</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2026 PSP Legacy, Sony Interactive Entertainment.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
