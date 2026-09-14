@@ -91,5 +91,5 @@ function processarOpcao(opcao) {
     }
 }
 
-// Inicia a aplicação
+
 exibirMenu();
