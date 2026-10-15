@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function App() {
   const [contador, setContador] = useState(1);
+   
 
   function incrementar() {
     //processamento de regras
